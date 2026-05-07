@@ -60,7 +60,6 @@ function printValue(value: unknown): void {
 
 Inside each `if` block, TypeScript knows the exact type and gives you the correct autocomplete and safety.
 
-
 ## Conclusion
 
 Use `unknown` instead of `any` when you're handling data you're not sure about — like API responses or user input. It forces you to check the type before using the value, which makes your code much safer. 
